@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas de Cor/Raça</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Estatísticas de Cor/Raça</h1>
+        <div class="input-group">
+            <label for="branca">Pessoas que se consideram Brancas:</label>
+            <input type="number" id="branca" placeholder="Digite a quantidade" oninput="calcularEstatisticas()">
+        </div>
+        <div class="input-group">
+            <label for="parda">Pessoas que se consideram Pardas:</label>
+            <input type="number" id="parda" placeholder="Digite a quantidade" oninput="calcularEstatisticas()">
+        </div>
+        <div class="input-group">
+            <label for="preta">Pessoas que se consideram Pretas:</label>
+            <input type="number" id="preta" placeholder="Digite a quantidade" oninput="calcularEstatisticas()">
+        </div>
+        <div class="input-group">
+            <label for="amarela">Pessoas que se consideram Amarelas:</label>
+            <input type="number" id="amarela" placeholder="Digite a quantidade" oninput="calcularEstatisticas()">
+        </div>
+        <div class="input-group">
+            <label for="indigena">Pessoas que se consideram Indígenas:</label>
+            <input type="number" id="indigena" placeholder="Digite a quantidade" oninput="calcularEstatisticas()">
+        </div>
+
+        <div id="resultados" class="resultados"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
